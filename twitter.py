@@ -16,10 +16,10 @@ mecab = MeCab.Tagger('-Oyomi')
 
 # TWITTER API AUTH CLIENT
 def get_oauth():
-	consumer_key        = '9NbyzoGoAaew04IbBOPCZvvAG'
-	consumer_secret     = 'J8u6yBBivKsZEnGocUZtl13UF43oGtYkuOj69CIMRhKMSxALWc'
-	access_key          = '944885976194629632-u8359IoO1EWI60AaoypjuUnxeXCFjt5'
-	access_secret       = '7aRxLnOWeQyuyPViXvHX91C3w9TNU8ViDDAcAukJ8PRrb'
+	consumer_key        = ''
+	consumer_secret     = ''
+	access_key          = ''
+	access_secret       = ''
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_key, access_secret)
 	return auth
